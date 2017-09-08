@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+.margin{width:980px;margin:0 auto;}
+header{height:111px;}
+header .logo{float:left;margin-top:20px;}
+header .header-r{float:right;margin-top:20px;}
+header .header-r h3{font:600 22px/48px "";color:#00b403;}
+header .header-r h4{font:600 italic 22px/42px "";color:#ff0000;}
+
+nav{height:40px;background:#00b403;}
+nav ul{display:flex;}
+nav ul li a{font:600 16px/40px "";color:#fff;padding:0 25px;}
+
+#banner{height:240px;background:url(../images/banner.png) no-repeat center;}
+
+#qqjt{width:100px;height:194px;border:1px solid #bbccd9;position:fixed;right:12px;top:175px;}
+#qqjt a{display:block;width:72px;height:21px;border:1px solid #bbccd9;font:12px/21px "";color:#1a649d;margin:10px 0 0 18px;background:#dde8f9;border-radius:5px;}
+#qqjt a img{margin:2px 4px 0 4px;animation:tan .5s linear infinite;}
+@keyframes tan{
+	0%{transform:scale(0,0);}
+	50%{transform:scale(1.1,1.1);}
+}
+
+#main2{overflow: hidden;padding: 6px;}
+#main2 aside{float: left;width:212px;}
+#main2 aside h3{font: 12px/34px "";color: #fff;background:url(../images/hbg.png);padding: 0 26px 0 10px;}
+#main2 aside p{font: 12px/20px;padding-bottom: 18px;background-color: #F5F5F5;color: #000;}
+#main2 aside p span{font: 12px/24px "";padding: 0 26px 0 10px;}
+#main2 aside p span a{color: #71ba1b;}
+#main2 aside div{padding: 12px;background-color: #F5F5F5;overflow: hidden;}
+#main2 aside div b{float:left;display:block;width:150px;border: 1px solid #34ab1b;font: 12px/24px "";} 
+#main2 aside div b span{float:right;color: #fff;background-color: #34ab1b}
+#main2 article{float: right;width:744px;border: 1px solid #ddd;margin-bottom: 20px;}
+#main2 article h3{font: 12px/30px "";border-bottom: 1px solid #ddd;background-color: #f6f6f6;text-indent: 10px;}
+#main2 article ul{display: flex;flex-wrap: wrap;padding:42px 26px 0 30px;}
+#main2 article ul li{width:170px;border: 1px solid #ddd;padding: 12px;margin:0 30px 30px 0;}
+#main2 article ul li img{width: 170px;}
+#main2 article ul li h4{font:12px/22px "";color: #fff;background-color: #5c5c5c;text-align: center;}
+#main2 article div{text-align: center;font-size: 12px;color: #000000;margin-bottom: 80px;}
+#main2 article div span{color: #ff5d5d;}
+#main2 article div a{color: #34ab1b;border: 1px solid #ddd;}
+
+#nav{height:30px;background:url(../images/hbg.png) repeat;text-align:center;}
+#nav a{font:12px/30px "";color:#fff;}
+#nav span{margin:0 5px;color:#fff;}
+
+footer{height:148px;background:#f1f1f1;text-align:center;padding-top:20px;}
+footer div{font:12px/24px "";color:#191919;}
